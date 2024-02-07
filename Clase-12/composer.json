@@ -1,0 +1,24 @@
+{
+    "name": "julian/clase-12",
+    "description": "Ejemplo composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "11.1.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Julian\\Clase12\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tu Nombre",
+            "email": "you@example.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
